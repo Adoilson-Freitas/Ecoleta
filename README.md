@@ -7,8 +7,15 @@ ________________________________________________________________________________
 
 O Ecoleta é um projeto criado para gerenciar o processo de coleta de lixo nas cidades. Com ele, é possível ajudar pessoas a encontrarem pontos de coleta de uma forma mais eficiente.
 
-- dia 1: desenvolvemos o  HTML e CSS da pagina home.
+- [x] Dia 1: desenvolvemos o  HTML e CSS da pagina home.
+
 ![home](https://user-images.githubusercontent.com/56658900/83548461-2cd1e380-a4da-11ea-8981-813d7c0acabc.png)
+____________________________________________________________________________________________________________________________
+- [x] Dia 2: criamos a pagina de cadastro e iniciamos com JavaScript criando uma função que chama a API do ibge para buscar os Estatos e Cidades.
+
+![Cinnamon-Jun-03-2020_21_29_49pm (online-video-cutter com)](https://user-images.githubusercontent.com/56658900/83702226-6ee64c80-a5e2-11ea-8408-1bc6b53c3c95.gif)
+
+
 
 ______________________________________________________________________________________________________________________________________________________
 
