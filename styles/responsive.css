@@ -38,12 +38,103 @@
   #page-home main {
     align-items: center;
   }
+
+  #search-results .cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
+@media (max-width: 700px) {
+  #search-results .cards {
+    grid-template-columns: 1fr;
+  }
+
+  #search-results .card img {
+    height: 190px;
+  }
+}
 
 
 @media (min-width: 1700px) {
   #page-home {
     background-position: 40vw 35vh;
+  }
+}
+
+@media (max-width: 670px) { 
+
+  form .field-group {
+    display: grid;
+  } 
+  form .field-group .field + .field {
+    margin-left: 0;
+  }
+  form input,
+  form select {
+    padding: 10px 10px;
+  }
+
+  form h1 {
+    font-size: 26px;
+  }
+
+  form legend h2  {
+    font-size: 20px;
+  }
+
+  .items-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 430px) {  
+  .items-grid {
+    grid-template-columns: 1fr;
+  }
+
+  form button{
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 350px) {  
+  #page-create-point header {
+    margin-bottom: -50px;
+   }
+  
+   #page-create-point header a {
+     position: absolute;
+     bottom: -1780px;
+     left: 50%;
+     transform: translateX(-50%);
+   }
+
+}
+
+
+@media (max-width: 470px) {
+  #modal .content {
+    color: #fff;
+  
+    width: 300px;
+  }
+  #modal .header a {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #modal .header h1 {
+    font-size: 26px;
+  }
+
+  #modal form input {
+    padding: 10px 20px;
+  }
+
+  #modal form button {
+    width: 40px;
+    height: 40px;
   }
 }
