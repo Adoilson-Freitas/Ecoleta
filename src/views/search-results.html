@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+
+{% set pageId = 'search-results'  %}
+
+{% block title %}
+  <title>Resultado da pesquisa</title>
+{% endblock title %}
+
+{% block styles %}
+  <link rel="stylesheet" href="/styles/search-results.css">
+{% endblock styles %}
+
+{% block container %}
+
+  {%include 'partials/page-header.html' %}
+
+  <main>
+
+    <h4>
+      <strong>2 pontos</strong>
+      encontrados
+    </h4>
+
+    <div class="cards">
+      <div class="card">
+        <img src="https://media.istockphoto.com/photos/recycling-garbage-such-as-glass-plastic-metal-and-paper-picture-id1082028590" alt="Colectoria">
+        <h1>Colectoria</h1>
+        <h3>Resíduos Eletônicos, Làmpadas</h3>
+        <p>
+          Rio do Sul, Santa catarina
+          <br>
+          Guilherme Gemballa, Jardim América
+          <br>
+          Número 260
+        </p>
+      </div>
+      <div class="card">
+        <img src="https://media.istockphoto.com/photos/kids-putting-garbage-into-plastic-containers-of-different-types-picture-id1152580313" alt="Papersider">
+        <h1>Papersider</h1>
+        <h3>Papéis e Papelão</h3>
+        <p>
+          Rio do Sul, Santa catarina
+          <br>
+          Guilherme Gemballa, Jardim América
+          <br>
+          Número 260
+        </p>
+      </div>
+    </div>
+  </main>
+
+{% endblock container %}

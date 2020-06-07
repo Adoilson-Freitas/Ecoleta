@@ -22,14 +22,14 @@ body::after {
   align-items: center;
 }
 
-#search-results header a{
+#search-results header a {
   display: flex;
   font-weight: bold;
   color: var(--title-color);
   align-items: center;
 }
 
-#search-results header a span{
+#search-results header a span {
   display: flex;
   margin-right: 15px;
   background-image: url(../assets/arrow-left.svg);
@@ -39,7 +39,6 @@ body::after {
 
 main {
   margin: 48px;
-
 }
 
 main h4 {
@@ -79,3 +78,4 @@ main .card p {
   font-size: 16px;
   color: #444;
 }
+
