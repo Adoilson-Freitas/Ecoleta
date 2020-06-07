@@ -1,11 +1,16 @@
+body {
+  background-color: #dbdbf5;
+}
+
 body::after {
   content: "";
-  position: fixed;
-  background-color: #dbdbf5;
-  top: 260px;
+  position: absolute;
+  background-color: #babaf0;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+  height: 16em;
   z-index: -1;
 }
 
@@ -76,6 +81,6 @@ main .card h3 {
 
 main .card p {
   font-size: 16px;
-  color: #444;
+  color: #222;
 }
 

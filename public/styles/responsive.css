@@ -101,6 +101,8 @@
     font-size: 12px;
   }
 }
+
+
 @media (max-width: 350px) {
   #page-create-point header {
     margin-bottom: -50px;
@@ -113,6 +115,8 @@
     transform: translateX(-50%);
   }
 }
+
+
 
 @media (max-width: 470px) {
   #modal .content {
