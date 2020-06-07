@@ -21,6 +21,17 @@ ________________________________________________________________________________
 
 ![Cinnamon-Jun-05-2020_00_51_17am](https://user-images.githubusercontent.com/56658900/83836024-ba732600-a6c8-11ea-8891-db2521f6ed62.gif)
 
+
+
+____________________________________________________________________________________________________________________________
+- [x] Dia 4: organizamos as pastas, criamos uma template engine com Nunjucks e iniciamos um servidor com express.
+
+
+
+
+
+
+
 ______________________________________________________________________________________________________________________________________________________
 
 Implementado por: [Adoilson Freitas](https://www.linkedin.com/in/adoilson-freitas-98b154172/)
